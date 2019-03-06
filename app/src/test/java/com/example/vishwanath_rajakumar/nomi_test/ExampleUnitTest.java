@@ -16,6 +16,6 @@ public class ExampleUnitTest {
     public void addition_isCorrect()
     {
         Log.d("Unit Test","Unit Test");
-        assertEquals(3, 2 + 2);
+        assertEquals(4, 2 + 2);
     }
 }
