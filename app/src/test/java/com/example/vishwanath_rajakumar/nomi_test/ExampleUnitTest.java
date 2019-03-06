@@ -1,5 +1,7 @@
 package com.example.vishwanath_rajakumar.nomi_test;
 
+import android.util.Log;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,7 +13,9 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void addition_isCorrect()
+    {
+        Log.d("Unit Test","Unit Test");
+        assertEquals(3, 2 + 2);
     }
 }
